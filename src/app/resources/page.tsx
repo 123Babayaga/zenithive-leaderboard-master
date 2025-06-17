@@ -30,6 +30,7 @@ const ResourcePage = () => {
   useEffect(() => {
     loadData();
   }, [isAdmin]);
+  
 
   const loadData = async () => {
     try {
