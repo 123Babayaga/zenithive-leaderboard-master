@@ -14,6 +14,7 @@ interface User {
   totalPoints?: number;
 }
 
+
 interface DecodedToken {
   email: string;
   role: string;
